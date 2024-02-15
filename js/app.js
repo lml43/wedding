@@ -21,12 +21,12 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// getURLParameter()
-// let guessText = document.getElementById("guess_name");
-// guessText.innerHTML = guessText.innerHTML.replace("{{guess_name}}", decode(guessName));
+getURLParameter()
+let guessText = document.getElementById("guess_name");
+guessText.innerHTML = guessText.innerHTML.replace("{{guess_name}}", decode(guessName));
 
-// let guessAltText = document.getElementById("guess_alt");
-// guessAltText.innerHTML = guessAltText.innerHTML.replace("{{guess_alt}}", decode(guessAlt));
+let guessAltText = document.getElementById("guess_alt");
+guessAltText.innerHTML = guessAltText.innerHTML.replace("{{guess_alt}}", decode(guessAlt));
 
 
 sleep(1000).then(() => {
