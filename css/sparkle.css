@@ -1,0 +1,57 @@
+.sparkley {
+    background: lighten( #ffffff, 10%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    transition: all 0.25s ease;
+    box-shadow: 0 38px 32px -23px black;
+    &:hover {
+        background: #2c3e50;
+        color: transparentize( rgb(255, 255, 255), 0.8);
+    }
+}
+
+html {
+    min-height: 100%;
+    body {
+        padding: 50px;
+    }
+}
+
+
+/* 
+h1,
+h2,
+h3 {
+    span {
+        font-family: Montez;
+        font-size: 1.9em;
+        font-weight: 300;
+        margin: 0 0.3em;
+        color: #ff0080;
+    }
+}
+
+h1 {
+    font-size: 1.9em;
+    width: 900px;
+    margin: 0 auto 1em;
+    text-shadow: 0 2px 1px black;
+}
+
+.img {
+    margin: 40px auto 0;
+    width: 500px;
+    display: block;
+    img {
+        width: 100%;
+        border-radius: 5px;
+    }
+} */
+
+
+/* p {
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px auto;
+} */

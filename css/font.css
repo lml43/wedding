@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Effra Light';
+    src: url('../font/effra/Effra_Std_Lt.ttf');
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../font/effra/Effra_Std_Rg.ttf');
+}
+
+@font-face {
+    font-family: 'Effra Medium';
+    src: url('../font/effra/Effra_Std_Md.ttf');
+}
+
+@font-face {
+    font-family: 'Effra Heavy';
+    src: url('../font/effra/Effra_Std_Rg.ttf');
+}
+
+@font-face {
+    font-family: 'Futura Light';
+    src: url('../font/futura/Futura\ Light\ font.ttf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../font/futura/futura\ medium\ bt.ttf');
+}
+
+@font-face {
+    font-family: 'Futura Heavy';
+    src: url('../font/futura/Futura\ Heavy\ font.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('../font/Raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway Heavy';
+    src: url('../font/Raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Sacramento';
+    src: url('../font/Sacramento/Sacramento-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'BalihoScript';
+    src: url('../font/BalihoScript.otf');
+}
+
+@font-face {
+    font-family: 'Bahama';
+    src: url('../font/BAHAMAS0.TTF');
+}
+
+.bold {
+    font-family: "Futura Heavy";
+}
+
+:root {
+    --title-text-size-lg: 4rem;
+    --title-text-size-md: 2.3rem;
+    --title-text-size-sm: 1.5rem;
+    --title-lead-size-lg: 1.2rem;
+    --title-lead-size-md: 1.1rem;
+    --title-lead-size-sm: 1rem;
+    --about-lead-size-lg: 1rem;
+    --about-lead-size-md: 0.8rem;
+    --about-lead-size-sm: 0.8rem;
+}

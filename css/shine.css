@@ -1,0 +1,199 @@
+svg {
+    position: absolute;
+    z-index: 1;
+}
+
+.greeting {
+    margin: auto;
+}
+
+.greeting svg.newyear1 {
+    width: 100%;
+    height: 140px;
+    top: 65px;
+}
+
+@media only screen and (min-width: 680px) {
+    .greeting svg.newyear2 {
+        width: 100%;
+        height: 158px;
+        top: 225px;
+    }
+}
+
+.greeting svg.underline {
+    width: 88%;
+    top: 170px;
+    right: 0;
+    width: 86%;
+}
+
+@media only screen and (min-width: 680px) {
+    .greeting svg.underline {
+        top: 200px;
+    }
+}
+
+.greeting svg.underline .underlineAnim {
+    fill: none;
+    stroke: #893D16;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 10px;
+    stroke-dasharray: 1452.0181884766;
+    stroke-dashoffset: 1452.0181884766;
+    -webkit-animation: draw 0.4s linear 5.3s forwards;
+    animation: draw 0.4s linear 5.3s forwards;
+}
+
+.greeting svg.shine {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 200px;
+    margin: auto;
+    width: 50px;
+    transform: rotate(30deg);
+}
+
+.greeting svg.shine .shineAnim {
+    fill: none;
+    stroke: #893D16;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 10px;
+    stroke-dasharray: 441.9982910156;
+    stroke-dashoffset: 441.9982910156;
+    -webkit-animation: draw 1s linear 1s forwards;
+    animation: draw 1s linear 1s forwards;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes draw {
+    75% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes draw {
+    75% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.circles .circle-l {
+    height: 30px;
+    width: 30px;
+}
+
+.circles .circle-s {
+    height: 12px;
+    width: 12px;
+}
+
+.circles .circle-l,
+.circles .circle-s {
+    background-color: #893D16;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-animation: scale 0.5s forwards ease-out;
+    animation: scale 0.5s forwards ease-out;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+    opacity: 0;
+}
+
+.circles .circle-l:nth-of-type(1),
+.circles .circle-s:nth-of-type(1) {
+    left: 9%;
+    top: 2%;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.circles .circle-l:nth-of-type(2),
+.circles .circle-s:nth-of-type(2) {
+    right: 10%;
+    top: 10%;
+    -webkit-animation-delay: 6.2s;
+    animation-delay: 6.2s;
+}
+
+.circles .circle-l:nth-of-type(3),
+.circles .circle-s:nth-of-type(3) {
+    left: 1%;
+    top: 80%;
+    -webkit-animation-delay: 6.4s;
+    animation-delay: 6.4s;
+}
+
+.circles .circle-l:nth-of-type(4),
+.circles .circle-s:nth-of-type(4) {
+    right: 30%;
+    top: 95%;
+    -webkit-animation-delay: 6.7s;
+    animation-delay: 6.7s;
+}
+
+.circles .circle-l:nth-of-type(5),
+.circles .circle-s:nth-of-type(5) {
+    right: 35%;
+    top: 22%;
+    -webkit-animation-delay: 6.8s;
+    animation-delay: 6.8s;
+}
+
+.circles .circle-l:nth-of-type(6),
+.circles .circle-s:nth-of-type(6) {
+    left: 16%;
+    top: 55%;
+    -webkit-animation-delay: 7.1s;
+    animation-delay: 7.1s;
+}
+
+.circles .circle-l:nth-of-type(7),
+.circles .circle-s:nth-of-type(7) {
+    left: 27%;
+    top: 16%;
+    -webkit-animation-delay: 6.7s;
+    animation-delay: 6.7s;
+}
+
+.circles .circle-l:nth-of-type(8),
+.circles .circle-s:nth-of-type(8) {
+    right: 5%;
+    bottom: 24%;
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
+}
+
+.circles .circle-l:nth-of-type(9),
+.circles .circle-s:nth-of-type(9) {
+    left: 25%;
+    bottom: 2%;
+    -webkit-animation-delay: 6.3s;
+    animation-delay: 6.3s;
+}
+
+@-webkit-keyframes scale {
+    0% {
+        opacity: 0;
+        transform: scale3d(0, 0, 0);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        opacity: 0;
+        transform: scale3d(0, 0, 0);
+    }
+    100% {
+        opacity: 1;
+    }
+}

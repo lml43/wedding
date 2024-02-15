@@ -1,0 +1,130 @@
+.flex.row {
+    flex-direction: row;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section:nth-of-type(2) .bullet-wrap {
+    height: intial;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.s2 .border-line {
+    left: 10%;
+}
+
+section:nth-of-type(2) .title-text {
+    font-size: var(--title-text-size-md);
+}
+
+.flex.row-gt-sm {
+    flex-direction: row;
+}
+
+section .flex-50-gt-sm {
+    -webkit-flex: 1 1 30%;
+    -ms-flex: 1 1 30%;
+    flex: 1 1 30%;
+    max-height: 100%;
+    max-width: 50%;
+    max-width: 45%;
+    margin: 0 50px;
+}
+
+section:nth-of-type(2) .about-wrapper {
+    top: 20%;
+    position: absolute;
+    align-items: flex-start;
+    width: 100%;
+}
+
+section:nth-of-type(2) .about-wrapper .label {
+    margin: 15px 0 10px 0;
+    font-size: var(--title-text-size-md);
+    width: 100%;
+    font-family: "Futura";
+}
+
+.animated.slide-in-left {
+    animation: slideInLeft 0.75s ease both;
+}
+
+.border-white {
+    border: 1px solid white;
+    box-sizing: content-box;
+}
+
+.about-lead {
+    width: 100%;
+    color: rgb(52, 52, 52);
+    font-size: var(--title-lead-size-md);
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-family: "Lato";
+    transition: all 0s ease-in-out;
+}
+
+.animated-progress {
+    animation: initState 1s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes initState {
+    0% {
+        width: 0;
+    }
+}
+
+.about-images {
+    display: inline-block;
+    z-index: -1;
+    margin-top: 16.2%;
+}
+
+.about-images .anh {
+    position: absolute;
+    display: block;
+    right: 45%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 15%;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+.about-images .em {
+    position: absolute;
+    display: block;
+    left: 45%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 15%;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+.s2 {
+    background-image: url(../img/background_2.svg);
+    background-size: cover;
+    background-position-x: center;
+    z-index: -5;
+}
+
+.about-text-left {
+    text-align: right;
+}
+
+.about-text-right {
+    text-align: left;
+}
