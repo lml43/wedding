@@ -1,3 +1,5 @@
+import { guessList } from "./data/guess.js";
+
 var guessName;
 var guessAlt;
 
@@ -5,36 +7,25 @@ function getURLParameter() {
     let sPageURL = window.location.search.substring(1);
     let sURLVariables = sPageURL.split('&');
 
-    guessName = sURLVariables[0].split('=')[1];
-    guessAlt = sURLVariables[1].split('=')[1];
-}
+    let guessId = sURLVariables[0].split('=')[1];
+    let guess = guessList[guessId]
 
-function decode(str) {
-    // Decode the String
-    var decodedString = decodeURIComponent(atob(str));
-    console.log(decodedString);
-
-    return decodedString;
+    guessName = guess["name"];
+    guessAlt = guess["alt"];
 }
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+
 getURLParameter()
 let guessText = document.getElementById("guess_name");
-guessText.innerHTML = guessText.innerHTML.replace("{{guess_name}}", decode(guessName));
+guessText.innerHTML = guessText.innerHTML.replace("{{guess_name}}", guessName);
 
 let guessAltText = document.getElementById("guess_alt");
-guessAltText.innerHTML = guessAltText.innerHTML.replace("{{guess_alt}}", decode(guessAlt));
-
-
+guessAltText.innerHTML = guessAltText.innerHTML.replace("{{guess_alt}}", guessAlt);
 sleep(1000).then(() => {
     let envelopWrapper = document.getElementById("wrapper");
     envelopWrapper.classList.add("open");
 })
-
-function encode(guess) {
-    var encodedString = btoa(encodeURIComponent(guess));
-    console.log(encodedString);
-}
