@@ -16,7 +16,7 @@ body {
 
 .wrapper {
     height: 600px;
-    width: 500px;
+    width: 440px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -35,6 +35,7 @@ body {
     border-left: 150px solid transparent; */
     transform-origin: top;
     transition: transform 0.25s linear;
+    background-repeat: no-repeat;
 }
 
 
@@ -72,7 +73,8 @@ body {
     border-left: 150px solid #a4d4f2; */
     z-index: 4;
     background-image: url(../img/envelope.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     pointer-events: none;
 }
 
@@ -80,7 +82,7 @@ body {
     position: absolute;
     top: 0;
     width: 95%;
-    height: 500px;
+    height: 440px;
     background-color: white;
     border-radius: 15px;
     z-index: 2;
@@ -97,13 +99,13 @@ body {
 .letter #guess_name {
     text-align: center;
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 .letter #guess_alt {
     font-size: 27px;
-    margin-top: 56px;
-    margin-left: 190px;
+    margin-top: 46px;
+    margin-left: 169px;
 }
 
 .letter img {
@@ -126,11 +128,11 @@ body {
 }
 
 .invitation {
-    width: 250px;
-    height: 50px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     right: 0;
-    top: 260px;
+    top: 225px;
 }
 
 
@@ -155,9 +157,21 @@ body {
 
 @media (max-width: 767px) {}
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 500px) {
     .wrapper {
-        height: 1000px;
-        width: 800px;
+        margin-top: 250px;
+        width: 300px;
+    }
+    .letter {
+        height: 350px;
+    }
+    .letter #guess_name {
+        font-size: 20px;
+        margin-top: 52px;
+    }
+    .letter #guess_alt {
+        font-size: 19px;
+        margin-top: 30px;
+        margin-left: 120px;
     }
 }

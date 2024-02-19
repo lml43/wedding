@@ -34,7 +34,6 @@ section .flex-50-gt-sm {
     max-height: 100%;
     max-width: 50%;
     max-width: 45%;
-    margin: 0 50px;
 }
 
 section:nth-of-type(2) .about-wrapper {
@@ -115,16 +114,16 @@ section:nth-of-type(2) .about-wrapper .label {
 }
 
 .s2 {
-    background-image: url(../img/background_2.svg);
+    background-image: url(../img/background_2_rotate.svg);
     background-size: cover;
     background-position-x: center;
     z-index: -5;
 }
 
 .about-text-left {
-    text-align: right;
+    text-align: center;
 }
 
 .about-text-right {
-    text-align: left;
+    text-align: center;
 }
