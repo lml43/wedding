@@ -13,15 +13,14 @@ a {
     text-decoration: none;
 }
 
-
-/* #fp-nav ul li a span,
+#fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0);
 }
 
 #fp-nav.fp-left {
     left: 4%;
-} */
+}
 
 #fullpage {
     transition-delay: 0.1s !important;
