@@ -148,27 +148,6 @@ a {
     top: 40%;
 }
 
-@media screen and (max-width: 1250px) {
-    #fp-nav {
-        width: auto;
-        top: auto;
-        bottom: 32px;
-        -webkit-transform: translate3d(-50%, 0, 0);
-        transform: translate3d(-50%, 0, 0);
-    }
-    #fp-nav.fp-left {
-        left: 50%;
-    }
-    #fp-nav ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .title-text {
         font-size: var(--title-text-size-md);
