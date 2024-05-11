@@ -94,7 +94,7 @@ export const guessList = {
         "alt": "bạn và người thương"
     },
     "28": {
-        "name": "Dương Mark Hoàn Vũ",
+        "name": "Vũ",
         "alt": "bạn và người thương"
     },
     "29": {
