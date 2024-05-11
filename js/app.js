@@ -5,10 +5,11 @@ var guessAlt;
 
 function getURLParameter() {
     let sPageURL = window.location.search.substring(1);
-    let sURLVariables = sPageURL.split('&');
+    let a = sPageURL[5] == '0' ? '' : sPageURL[5];
+    let b = sPageURL[2] == '0' ? '' : sPageURL[2];
 
-    let guessId = sURLVariables[0].split('=')[1];
-    let guess = guessList[guessId]
+    let guessId = a + b + sPageURL[3];
+    let guess = guessList[guessId];
 
     guessName = guess["name"];
     guessAlt = guess["alt"];

@@ -174,4 +174,8 @@ body {
         margin-top: 30px;
         margin-left: 120px;
     }
+    .invitation {
+        width: 290px;
+        top: 150px;
+    }
 }
