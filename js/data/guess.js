@@ -544,4 +544,10 @@ export const guessList = {
         "name": "Anh Thịnh",
         "alt": "bạn"
     },
+
+
+    "200": {
+        "name": "Rốt",
+        "alt": "bạn"
+    }
 }
