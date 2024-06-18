@@ -628,7 +628,7 @@ export const guessList = {
         "alt": "hai bạn"
     },
     "220": {
-        "name": "Hội B612",
+        "name": "Trạm B415",
         "alt": "các bạn"
     },
     "221": {
