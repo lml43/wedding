@@ -572,7 +572,7 @@ export const guessList = {
         "alt": "em"
     },
     "206": {
-        "name": "Chi và người thương",
+        "name": "Chi và bồ",
         "alt": "hai em"
     },
     "207": {
@@ -592,7 +592,7 @@ export const guessList = {
         "alt": "bạn"
     },
     "211": {
-        "name": "Per 06 và người thương",
+        "name": "Per 06 và bồ",
         "alt": "hai bạn"
     },
     "212": {
@@ -624,15 +624,15 @@ export const guessList = {
         "alt": "hai bạn"
     },
     "219": {
-        "name": "Chang và Mingyu",
-        "alt": "bạn"
+        "name": "Chang & Mingyu",
+        "alt": "hai bạn"
     },
     "220": {
-        "name": "Hội Boomshakalaka",
+        "name": "Hội B612",
         "alt": "các bạn"
     },
     "221": {
-        "name": "Luna và người thương",
+        "name": "Luna và bồ",
         "alt": "hai bạn"
     },
 }
