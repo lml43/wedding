@@ -546,8 +546,93 @@ export const guessList = {
     },
 
 
+    // Khách của Tâm
     "200": {
         "name": "Rốt",
         "alt": "bạn"
-    }
+    },
+    "201": {
+        "name": "Lâm",
+        "alt": "bạn"
+    },
+    "202": {
+        "name": "Hùng",
+        "alt": "em"
+    },
+    "203": {
+        "name": "Méo và vợ",
+        "alt": "hai bạn"
+    },
+    "204": {
+        "name": "Yến",
+        "alt": "em"
+    },
+    "205": {
+        "name": "Ngọc",
+        "alt": "em"
+    },
+    "206": {
+        "name": "Chi và người thương",
+        "alt": "hai em"
+    },
+    "207": {
+        "name": "Vịt",
+        "alt": "bạn"
+    },
+    "208": {
+        "name": "Hải Vũ",
+        "alt": "anh"
+    },
+    "209": {
+        "name": "Màn",
+        "alt": "bạn"
+    },
+    "210": {
+        "name": "Sa 44",
+        "alt": "bạn"
+    },
+    "211": {
+        "name": "Per 06 và người thương",
+        "alt": "hai bạn"
+    },
+    "212": {
+        "name": "Grell 03",
+        "alt": "bạn"
+    },
+    "213": {
+        "name": "Cua",
+        "alt": "bạn"
+    },
+    "214": {
+        "name": "Hủ",
+        "alt": "bạn"
+    },
+    "215": {
+        "name": "Ánh",
+        "alt": "em và người thương"
+    },
+    "216": {
+        "name": "Duyên",
+        "alt": "em và người thương"
+    },
+    "217": {
+        "name": "Tuyết Anh",
+        "alt": "em"
+    },
+    "218": {
+        "name": "Ellen và chú Nu",
+        "alt": "hai bạn"
+    },
+    "219": {
+        "name": "Chang và Mingyu",
+        "alt": "bạn"
+    },
+    "220": {
+        "name": "Hội Boomshakalaka",
+        "alt": "các bạn"
+    },
+    "221": {
+        "name": "Luna và người thương",
+        "alt": "hai bạn"
+    },
 }
