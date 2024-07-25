@@ -379,6 +379,10 @@ export const guessList = {
         "name": "Hoàng Gia",
         "alt": "bạn"
     },
+    "104": {
+        "name": "Thiên Thư",
+        "alt": "chị"
+    },
 
     // NK
     "106": {
@@ -543,6 +547,10 @@ export const guessList = {
     "150": {
         "name": "Anh Thịnh",
         "alt": "bạn"
+    },
+    "151": {
+        "name": "Thu Hằng",
+        "alt": "em"
     },
 
 
