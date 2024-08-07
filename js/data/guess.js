@@ -105,10 +105,10 @@ export const guessList = {
         "name": "Hoàng Khang",
         "alt": "bạn và người thương"
     },
-    // "31": {
-    //     "name": "Thi",
-    //     "alt": "bạn"
-    // },
+    "31": {
+        "name": "Thi",
+        "alt": "bạn"
+    },
     "32": {
         "name": "Trung",
         "alt": "bạn"
@@ -117,10 +117,10 @@ export const guessList = {
         "name": "Hùng Anh & Thư",
         "alt": "gia đình"
     },
-    // "34": {
-    //     "name": "Sang",
-    //     "alt": "bạn"
-    // },
+    "34": {
+        "name": "Sang",
+        "alt": "bạn"
+    },
 
 
     // EDC
