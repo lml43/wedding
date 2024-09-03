@@ -121,6 +121,10 @@ export const guessList = {
         "name": "Sang",
         "alt": "bạn"
     },
+    "35": {
+        "name": "An Thư",
+        "alt": "em"
+    },
 
 
     // EDC
