@@ -556,6 +556,10 @@ export const guessList = {
         "name": "Thu Hằng",
         "alt": "em"
     },
+    "152": {
+        "name": "Phước",
+        "alt": "bạn"
+    },
 
 
     // Khách của Tâm
