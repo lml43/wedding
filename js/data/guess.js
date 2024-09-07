@@ -56,6 +56,10 @@ export const guessList = {
         "name": "Anh Đạt",
         "alt": "anh"
     },
+    "16": {
+        "name": "Chị Oanh",
+        "alt": "chị"
+    },
 
 
     // GNT
